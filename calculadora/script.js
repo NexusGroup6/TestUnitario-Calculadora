@@ -19,12 +19,12 @@ function calc3() {/*Função 3 multiplicação*/
     document.querySelector('.result').innerHTML = 'Resultado: ' + result3;/*Imprimir resultado para user*/
 }
 
-function calc4() {/*Função 4 divisão*/
-    var valor1 = document.querySelector('#input1').value;/*Armazenar valor de input 1*/
-    var valor2 = document.querySelector('#input2').value;/*Armazenar valor de input 2*/
-    var result4 = valor1 / valor2;/*Função em si*/
-    document.querySelector('.result').innerHTML = 'Resultado: ' + result4;/*Imprimir resultado para user*/
-}
+// function calc4() {/*Função 4 divisão*/
+//     var valor1 = document.querySelector('#input1').value;/*Armazenar valor de input 1*/
+//     var valor2 = document.querySelector('#input2').value;/*Armazenar valor de input 2*/
+//     var result4 = valor1 / valor2;/*Função em si*/
+//     document.querySelector('.result').innerHTML = 'Resultado: ' + result4;/*Imprimir resultado para user*/
+// }
 
 function clean(){
     document.getElementById('input1').value = '';
